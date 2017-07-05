@@ -1,0 +1,23 @@
+<style type="text/css">
+    .main-content > table {
+        overflow: visible;
+        font-size: 1rem;
+    }
+
+    .main-content > table tr td {
+        vertical-align: top;
+    }
+
+    .main-content > table tr td:nth-child(1) {
+        text-align: center;
+    }
+
+    .main-content > table:nth-last-of-type(1) tr td:nth-child(n+3):nth-child(-n+5) {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    .main-content > table:nth-last-of-type(1) tr td:nth-last-of-type(n+1):nth-last-of-type(-n+4) {
+        font-size: 0.75rem;
+    }
+</style>
